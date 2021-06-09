@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    font-family: 'Baloo Tammudu 2', cursive;
+}
+
+body {
+    background-image: url(img/background.jpg);
+    background-size: cover;
+}
+
+.opacity-container {
+    width: 60%;
+    margin: 30px auto 30px auto;
+    padding: 2%;
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 50px;
+}
+
+/* intro */
+.intro {
+    text-align: center;
+}
+.intro > img {
+    display: block;
+    width: 200px;
+    margin: auto;
+}
+h1 {
+    color: green;
+    margin: 5px;
+}
+
+/* nav */
+nav {
+    background: green;
+    text-align: center;
+    padding: 5px;
+    margin: 0 30px 0 30px;
+}
+nav > button {
+    margin: 5px auto 5px auto;
+}
+
+/* Tipologie monpattini */
+section {
+    color: #fff;
+    margin: 30px;
+}
+section > h2 {
+    display: inline-block;
+    margin: 5px;
+}
+
+/* livelli batteria */
+.low, .medium, .high {
+    height: 2em;
+    border-radius: 3px;
+}
+.low {
+    background: red;
+    width: 30%;
+}
+.medium {
+    background: yellow;
+    width: 50%;
+}
+.high {
+    background: greenyellow;
+    width: 80%;
+}
